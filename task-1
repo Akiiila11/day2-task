@@ -1,0 +1,78 @@
+Differences between Document and Window Objectss :
+
+Window Objects:
+
+  * Web browser is made up of hierarchy of objects, at the root level we have a Window Objects and it is the root 
+    level element in any web page.
+  
+  * The Window Objects is a global object in client - side JavaScript, representing the browser window containing 
+    a DOM document and acts as the root of the DOM.
+
+  * The Window Objects is supported by all browsers, represents the browser's window and automatically includes 
+    global javaScript objects, functions and variables as members.
+
+  * The Window Objects is responsible for managing global variables, functions and objects, providing methods for 
+    browser interaction and managing properties related to frames, tabs or windows.
+
+ Properties : 
+  
+  1. window.innerHeight - the inner height of the browser window.
+
+  2. window.innerWidth - the inner width of the browser window.
+
+  3. Properties like document, location are properties of the Window object.
+
+ Methods :
+
+  1. window.open() - open a new window.
+
+  2. window.close() - close the current window.
+
+  3. window.moveTo() - move the current window.
+
+  4. window.resizeTo() - resize the current window.
+
+  5. alert() - displays a dialog box with a specified message and an OK button.
+
+  6. confirm() - displays a dialog box with a specified message, along with OK and Cancel buttons. 
+
+
+
+Document Objects :
+
+  * It is the direct child of the window object. It is a Document Object Model (DOM).
+
+  * The Document object is the HTML document that appears in the browser window and serves as an interface for 
+    interacting with the web page’s content. The browser generates a DOM of a web page upon loading it. You can 
+    access it via window.document or document.
+
+  * The DOM is a logical tree in a document, with methods allowing programmatic access to change its structure, 
+    style, or content.
+
+  * The DOM manipulation tool offers methods to access and manipulate the structure and content of a document. 
+    It represents the entire HTML document as a node tree, with the Document object as the root node. It allows 
+    dynamic updates and interactions with web page content.
+
+ Properties :
+
+  1. element.innerHTML = Change the inner HTML of an element
+
+  2. element.attribute = Change the attribute value of an HTML element
+
+ Methods : 
+
+  1. document.createElement() - Create an HTML element
+
+  2. document.removeChild() - Remove an HTML element
+
+  3. document.getElementById() - retrieves an element from the document with the specified 'id'
+
+  4. document.getElementsByTagName() - returns a live HTMLCollection of elements with the given tag name
+
+  5. document.querySelector() - returns the first Element within the document that matches the specified CSS 
+    selector, or group of selectors
+
+
+Conclusion : 
+
+  Window manages browser interactions, while document acts as an interface for content manipulation.
